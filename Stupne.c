@@ -4,6 +4,7 @@
 int main(){
     float Farenheit, Celzia;
 
+
     scanf("%f",&Farenheit);
 
     Celzia = 5/9*(Farenheit-32);

@@ -16,6 +16,7 @@ float obvodKruhu(float priemer) {
 
 
 int main() {
+
 	float priemerKolesa, dlzkaTrasy, obvodKolesa, pocetOtacok;
 
 	printf("Zadajte priemer kolesa: ");
