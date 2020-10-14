@@ -16,17 +16,17 @@ float obvodKruhu(float priemer) {
 
 
 int main() {
-	float priemerKolesa, trasa, obvodKolesa, pocetOtacok;
+	float priemerKolesa, dlzkaTrasy, obvodKolesa, pocetOtacok;
 
 	printf("Zadajte priemer kolesa: ");
 	scanf("%f", &priemerKolesa);
 
 	printf("Zadajte vzdialenost v km: ");
-	scanf("%f", &trasa);
+	scanf("%f", &dlzkaTrasy);
 	
 	obvodKolesa = obvodKruhu(priemerKolesa);
 
-	pocetOtacok = trasa / (obvodKolesa / cmtokm);
+	pocetOtacok = dlzkaTrasy / (obvodKolesa / cmtokm);
 
 	printf("Koleso sa na ceste otoci %f krat.", pocetOtacok);
 
