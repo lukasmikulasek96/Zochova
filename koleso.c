@@ -7,11 +7,11 @@
 #define cmtokm 100000
 //Vlastna funkcia
 float obvodKruhu(float priemer) {
-	float vysledok;
+	float pocetOtociek;
 	
-	vysledok = PI * (priemer * Palectocm);
+	pocetOtociek = PI * (priemer * Palectocm);
 
-	return vysledok;
+	return pocetOtociek;
 }
 
 
