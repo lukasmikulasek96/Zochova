@@ -7,6 +7,7 @@ int main(){
     scanf("%f",&Farenheit);
 
     Celzia = 5/9*(Farenheit-32);
+	
 
     printf("%f Fahrenheita je %f Celsiuz\n",Farenheit,Celzia);
 
