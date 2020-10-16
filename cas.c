@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 int main(){
-    int a, b, c;
+    int prveCislo, druheCislo, sucet;
     printf("Zadajte prve cislo: ");
-    scanf("%d",&a);
+    scanf("%d",&prveCislo);
     printf("Zadajte druhe cislo: ");
-    scanf("%d",&b);
-    c = a + b;
-    printf("%d",c);
+    scanf("%d",&druheCislo);
+    sucet = prveCislo + druheCislo;
+    printf("%d",sucet);
 
 
     return 0;
